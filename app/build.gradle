@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
-android {
-    compileSdkVersion 'Google Inc.:Google APIs:21'
-    buildToolsVersion "22.0.1"
+android {ki
+    compileSdkVersion 34
+    buildToolsVersion "34.0.0"
 
     defaultConfig {
         applicationId "com.spartacusrex.spartacuside"
-        minSdkVersion 10
-        targetSdkVersion 10
+        minSdkVersion 26
+        targetSdkVersion 34
 
         ndk {
             moduleName "libjackpal-androidterm2"
